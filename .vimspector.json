@@ -1,0 +1,13 @@
+{
+    "configurations": {
+        "chrome": {
+            "adapter": "chrome",
+            "configuration": {
+                "request": "launch",
+                "stopOnEntry": true,
+                "url": "http://localhost:3000",
+                "webRoot": "${workspaceRoot}"
+            }
+        }
+    }
+}
