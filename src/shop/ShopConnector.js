@@ -41,6 +41,7 @@ export const ShopConnector = connect(
                             />
                         )}
                     />
+                    <Redirect to="/shop/products" />
                 </Switch>
             );
         }
