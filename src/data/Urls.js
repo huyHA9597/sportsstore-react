@@ -2,7 +2,7 @@ import { DataTypes } from "./Types"
 
 const protocol = "http"
 const hostname = "localhost"
-const port = 3000
+const port = 3500
 
 export const RestUrls = {
 	[DataTypes.PRODUCTS]: `${protocol}:://${hostname}:${port}/api/products`,
