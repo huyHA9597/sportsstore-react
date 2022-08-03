@@ -46,7 +46,7 @@ export class ValidatedForm extends Component {
 		return (
 			<div className="form-group" key={modelItem.label}>
 				<label>{modelItem.label}</label>
-				<ValidationError errors={this.sate.validationErrors[name]} />
+				<ValidationError errors={this.state.validationErrors[name]} />
 				<input
 					className="form-control"
 					name={name}
