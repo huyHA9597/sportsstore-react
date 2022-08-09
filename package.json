@@ -8,6 +8,7 @@
     "axios": "^0.27.2",
     "bootstrap": "^4.6.2",
     "graphql": "^14.0.2",
+    "graphql-language-service-cli": "^3.3.1",
     "history": "^5.3.0",
     "react": "^18.2.0",
     "react-apollo": "^2.3.2",
